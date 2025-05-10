@@ -1,0 +1,354 @@
+2025-05-10 10:49:27,467 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+  File "c:\Users\hasha\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_monkey.py", line 911, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, cmd_line, *args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:49:51,318 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:50:18,948 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:50:21,543 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:50:36,877 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+  File "c:\Users\hasha\.vscode\extensions\ms-python.debugpy-2025.6.0-win32-x64\bundled\libs\debugpy\_vendored\pydevd\_pydev_bundle\pydev_monkey.py", line 911, in new_CreateProcess
+    return getattr(_subprocess, original_name)(app_name, cmd_line, *args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:52:11,204 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 57, in check_adb_connection
+    process = subprocess.run(["adb", "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 10:55:27,306 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 74, in check_adb_connection
+    process = subprocess.run([adb_path, "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 11:02:04,053 ERROR: ADB connection error: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 75, in check_adb_connection
+    process = subprocess.run([adb_path, "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+2025-05-10 11:02:52,964 ERROR: ADB connection error: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 75, in check_adb_connection
+    process = subprocess.run([adb_path, "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 11:03:24,009 ERROR: ADB connection error: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 76, in check_adb_connection
+    process = subprocess.run([adb_path, "connect", "127.0.0.1:5555"],
+                      check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+2025-05-10 11:08:38,275 ERROR: Error finding PUBG versions: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 141, in pubg_version_found
+    result = subprocess.run(["adb", "shell", f"pm list packages {package_name}"],
+                     check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2025-05-10 11:11:33,945 ERROR: Error getting graphics file: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "D:\Project\pubg-optimizer\index.py", line 172, in get_graphics_file
+    result = subprocess.run(["adb", "pull", active_savegames_path, local_file_path],
+                     check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hasha\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1551, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
